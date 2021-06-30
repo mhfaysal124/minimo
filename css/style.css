@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Font Start*/
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(../font/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../font/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url(../font/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../font/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face {
+    font-family: Ubuntu-L;
+    src: url(../font/ubuntu/Ubuntu-L.ttf);
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(../font/Inconsolata/Inconsolata.otf);
+}
+/*Font End*/
+/*Header section Start*/
+header{
+
+}
+.container_1{
+    width: 95%;
+    margin: 0 auto;
+}
+.content{
+    overflow: hidden;
+    padding: 45px 0;
+}
+.content h1{
+    width: 10%;
+    float: left;
+    font-family: Inconsolata;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+}
+.navigation{
+    float: right;
+}
+.navigation ul{
+    padding-top: 8px;
+    overflow: hidden;
+}
+.navigation ul li{
+    list-style-type: none;
+    margin-right: 100px;
+    float: left;
+}
+.navigation ul li:last-child{
+    margin-right: 0;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    display: inline-block;
+    transition: .3s;
+}
+.navigation ul li a:hover{
+    color: #000000;
+}
+/*Header section End*/
+/*Banner section start*/
+.container_1 img{
+    width: 100%;
+}
+
+/*Banner section End*/
+/*The perfect weekend getaway section start*/
+.container{
+    width: 85%;
+    margin: 118px auto;
+}
+.getaway_content ,.getaway_content h4, .getaway_content h1, .getaway_content p{
+    margin: 30px 0;
+}
+.getaway_content h4{
+    color: #b4ad9e;
+    font-family: Ubuntu-L;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.getaway_content h1{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 30pt;
+}
+.getaway_content p{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 14pt;
+    line-height: 30px;
+
+}
+/*The perfect weekend getaway section End*/
+/*The lifestyle section start*/
+.lifestyle_content{
+    overflow: hidden;
+    margin: 100px 0;
+}
+.lifestyle_contents_content{
+    width: 45%;
+    margin-right: 10%;
+    float: left;
+}
+.lifestyle_contents_content:last-child{
+    margin-right: 0;
+}
+.lifestyle_contents_content img{
+    width: 100%;
+    margin: 25px 0;
+}
+.lifestyle_contents_content h4{
+    color: #b4ad9e;
+    font-family: Ubuntu-L;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+.lifestyle_contents_content h2{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 30pt;
+    margin: 25px 0;
+}
+.lifestyle_contents_content p{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 14pt;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+
+/*The lifestyle section End*/
+/*Sign_up section start*/
+.sign_up_section{
+    background-color: #f0f0f0;
+}
+.sign_up_content{
+    text-align: center;
+    padding: 75px 0;
+}
+.sign_up_content h1{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #333333;
+    font-size: 30pt;
+    margin-bottom: 70px;
+}
+.sign_up{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+.sign_up input{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 14pt;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    min-height: 40px;
+    background: transparent;
+    padding-right: 50px;
+
+}
+.sign_up input:focus{
+    outline: none;
+}
+.sign_up button{
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+}
+.sign_up button:focus{
+    outline: none;
+}
+.sign_up button img{}
+
+/*Sign_up section End*/
+/*The lifestyle section_2 start*/
+.l_button{
+    width: 157px;
+    margin: 160px auto;
+}
+.lifestyle_2_button{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+    font-size: 20pt;
+    background: transparent;
+    border: 2px solid #dddcd7;
+    padding: 12px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+/*The lifestyle section_2 End*/
+/*Footer section Start*/
+.f_content{
+    padding: 30px 0;
+    overflow: hidden;
+}
+.fc_left{
+    float: left;
+}
+.fc_left a{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fc_right{
+    float: right;
+}
+.fc_right p{
+    float: left;
+    margin-right: 33px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+.fc_right a img{
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.f_container{
+    margin-bottom: 0;
+}
+/*Footer section End*/
